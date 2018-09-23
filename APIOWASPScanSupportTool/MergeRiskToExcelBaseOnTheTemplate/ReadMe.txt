@@ -1,0 +1,2 @@
+It's generate the owasp zap result base on the excel template, and some basic information are put in the summary sheet,
+and the risk details are put the other sheet which are split by the product name, not by the risk name

@@ -1,0 +1,9 @@
+prologue
+    who:	administrator
+    date:	2015年9月9日 下午03时38分10秒
+    ldlvers:	2014
+    type:	messagesIndex
+    version:	1.0
+end_prologue
+{ID C_MOVE} {DESCRIPTION {C MOVE Request}}
+{ID C_STORE} {DESCRIPTION {C STORE Request}}

@@ -1,0 +1,13 @@
+prologue
+    who:	administrator
+    date:	2015年9月9日 下午03时38分10秒
+    ldlvers:	2014
+    type:	fld
+    version:	4.0
+end_prologue
+{ITEM 0032,1021} {NAME {Scheduled Study Location AE Title}} {KEYWORD ScheduledStudyLocationAETitle} {TYPE AE} {LEN 16} {VM 1-n}
+{ITEM 0032,000A} {NAME {Study Status ID}} {KEYWORD StudyStatusID} {TYPE CS} {LEN 16} {VM 1}
+{ITEM 0032,1001} {NAME {Scheduled Study Start Time}} {KEYWORD ScheduledStudyStartTime} {TYPE TM} {LEN 16} {VM 1}
+{ITEM 0032,1000} {NAME {Scheduled Study Start Date}} {KEYWORD ScheduledStudyStartDate} {TYPE DA} {LEN 8} {VM 1}
+{ITEM 0032,4000} {NAME {Study Comments}} {KEYWORD StudyComments} {TYPE LT} {LEN 10240} {VM 1}
+{ITEM 0008,0100} {NAME {Code Value}} {KEYWORD CodeValue} {TYPE SH} {LEN 16} {VM 1}

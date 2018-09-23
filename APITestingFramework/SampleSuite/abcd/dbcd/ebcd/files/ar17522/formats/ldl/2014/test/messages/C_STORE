@@ -1,0 +1,14 @@
+prologue
+    name:	C_STORE (C STORE Request)
+    who:	administrator
+    date:	2015年9月9日 下午03时38分10秒
+    ldlvers:	2014
+    type:	msg
+    version:	4.0
+end_prologue
+{
+   C_STORE_RQ_DIMSE
+}
+{
+   C_STORE_DATASET
+}

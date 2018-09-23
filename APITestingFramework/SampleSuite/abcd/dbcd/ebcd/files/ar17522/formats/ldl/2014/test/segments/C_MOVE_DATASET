@@ -1,0 +1,11 @@
+prologue
+    name:	C_MOVE_DATASET (ET ( C-MOVE Request DATASET )
+    who:	administrator
+    date:	2015年9月9日 下午03时38分10秒
+    ldlvers:	2014
+    type:	seg
+    version:	4.0
+end_prologue
+{FIELD 0008,0052} {REQD 0} {REPEAT 0} {REPCNT 0} {LEVEL 0}
+{FIELD 0010,0010} {REQD 0} {REPEAT 0} {REPCNT 0} {LEVEL 0}
+{FIELD 0010,0020} {REQD 0} {REPEAT 0} {REPCNT 0} {LEVEL 0}

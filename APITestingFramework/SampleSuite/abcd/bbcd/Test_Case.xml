@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlRoot>
+   <caseRoot>
+      <Execution>No</Execution>
+      <Desctiption/>
+      <TestCaseName>TestCase1</TestCaseName>
+      <APIMethod>POST</APIMethod>
+      <sitename>ar17720</sitename>
+      <api>errordb/rowidlist</api>
+      <apiParameter/>
+      <binaryFlag/>
+      <testData>rowidAll.json</testData>
+      <status_code>200</status_code>
+      <ExpectedFileName>expected1.txt</ExpectedFileName>
+      <ExpectedText/>
+   </caseRoot>
+   <caseRoot>
+      <Execution>No</Execution>
+      <Desctiption/>
+      <TestCaseName>TestCase2</TestCaseName>
+      <APIMethod>GET</APIMethod>
+      <sitename>ar17776</sitename>
+      <api>variant/hl7/2.1/3</api>
+      <apiParameter>forcelock=false&amp;locktype=read</apiParameter>
+      <binaryFlag/>
+      <testData/>
+      <status_code>500</status_code>
+      <ExpectedFileName>expected2.txt</ExpectedFileName>
+      <ExpectedText/>
+   </caseRoot>
+   <caseRoot>
+      <Execution>Yes</Execution>
+      <Desctiption/>
+      <TestCaseName>TestCase3</TestCaseName>
+      <APIMethod>POST</APIMethod>
+      <sitename>ar17522</sitename>
+      <api>/site/ar17522/command/test/ldl</api>
+      <apiParameter>n=&amp;i=&amp;e=UTF-8&amp;f=eof&amp;V=2014&amp;v=test&amp;M=C_MOVE&amp;c={TransferSyntax 1.2.840.10008.1.2}</apiParameter>
+      <binaryFlag>True</binaryFlag>
+      <testData>ldltest.dat</testData>
+      <status_code>200</status_code>
+      <ExpectedFileName>expected3.txt</ExpectedFileName>
+      <ExpectedText/>
+   </caseRoot>
+   <caseRoot>
+      <Execution>No</Execution>
+      <Desctiption/>
+      <TestCaseName>TestCase4</TestCaseName>
+      <APIMethod>POST</APIMethod>
+      <sitename>ar17522</sitename>
+      <api>command/test/ldl</api>
+      <apiParameter>params = (    ('n', ''),    ('i', ''),    ('e', 'UTF-8'),    ('f', 'eof'),    ('V', '2014'),    ('v', 'test'),    ('M', 'C_MOVE'),    ('c', '{TransferSyntax 1.2.840.10008.1.2}'),)</apiParameter>
+      <binaryFlag>True</binaryFlag>
+      <testData>ldltest.dat</testData>
+      <status_code>200</status_code>
+      <ExpectedFileName>expected3.txt</ExpectedFileName>
+      <ExpectedText/>
+   </caseRoot>
+   <caseRoot>
+      <Execution>No</Execution>
+      <Desctiption/>
+      <TestCaseName>TestCase4</TestCaseName>
+      <APIMethod>POST</APIMethod>
+      <sitename>ar17522</sitename>
+      <api>command/test/ldl</api>
+      <apiParameter>params = (    ('n', ''),    ('i', ''),    ('e', 'UTF-8'),    ('f', 'eof'),    ('V', '2014'),    ('v', 'test'),    ('M', 'C_MOVE'),    ('c', '{TransferSyntax 1.2.840.10008.1.2}'),)</apiParameter>
+      <binaryFlag>True</binaryFlag>
+      <testData>ldltest.dat</testData>
+      <status_code>200</status_code>
+      <ExpectedFileName>expected3.txt</ExpectedFileName>
+      <ExpectedText/>
+   </caseRoot>
+</xmlRoot>

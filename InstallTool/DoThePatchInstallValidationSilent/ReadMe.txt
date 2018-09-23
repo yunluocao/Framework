@@ -1,0 +1,1 @@
+Do the different version installation including the full install and patch install by silent part
